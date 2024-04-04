@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1> Calculator BMI</h1>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="container-item">
+                <h3>Calculator BMI</h3>
+                <p>Berat Badang Ideal adalah impian semua orang. Tidak hanya membentuk tubuh yang menunjang penampilan, 
+                    berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di kalkulaor BMI </p>
+                <section class="container-form">
+                    <div>
+                        <label>Jenis Kelamin </label><br>
+                        <input type="radio" name="sex" id="sex-man"> <label for="sex-man"> Laki-Laki</label>
+                        <input type="radio" name="sex" id="sex-man"> <label for="sex-woman"> Perempuan</label>
+                    </div>
+                <div>
+                    <label>Berat Badan (kg) <br></label>
+                    <input type="number">
+                </div>
+                <div>
+                    <label>Usia (Tahun) <br></label>
+                    <input type="number">
+                </div>
+                <div>
+                    <label>Tinggi Badan (cm)<br></label>
+                    <input type="number">
+                </div>
+                <button type="button" id="cal-button"> Hitung</button>
+                <button type="button"> Reset</button>
+                </section>
+                <p>Keunggulan Fitur</p>
+                <p>1. Menghitung Berat Badan<br>
+                   2. Menentukan kategori berat badan ideal atau Tidak<br>
+                   3. Mempersiapkan program penurunan berat badan</p>
+            </div>
+
+            <!-- Untuk Hasil Hitungan -->
+            <div class="container-item">
+                <h3>Hasil</h3>
+                <section class="container-result">
+                    <h4> Berat anda Lebih </h4>
+                    <h1>0</h1>
+                    <h4>Berat Anda Berlebih </h4>
+                    <button type="button"> Dowload Hasil Perhitungan</button>
+                </section>     
+        </div>
+    </main>
+    <footer></footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
